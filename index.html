@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Emmanuel Mainye – IT Assistant, Web Designer & Graphic Designer. Professional digital services in Nairobi." />
+  <meta name="keywords" content="IT Assistant, Web Designer, Graphic Designer, eCitizen, KRA, Emmanuel Mainye" />
+  <meta name="author" content="Emmanuel Mainye" />
+  <title>Emmanuel Mainye | Manu Hub – IT & Design Services</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       STICKY NAVBAR
+  ═══════════════════════════════════════════ -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Manu Hub Home">
+        <img src="C:\Users\Administrator\Desktop\manu hub/Manu Hub Logo.png" alt="Manu Hub Logo" class="logo-img" />
+        <span class="logo-text">
+          <span class="name-em">Emmanuel</span><span class="name-mn">Mainye</span>
+        </span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks" role="navigation" aria-label="Main navigation">
+        <a href="#home"       class="nav-link" data-section="home">Home</a>
+        <a href="#about"      class="nav-link" data-section="about">About</a>
+        <a href="#services"   class="nav-link" data-section="services">Services</a>
+        <a href="#portfolio"  class="nav-link" data-section="portfolio">Portfolio</a>
+        <a href="#testimonials" class="nav-link" data-section="testimonials">Reviews</a>
+        <a href="#contact"    class="nav-link" data-section="contact">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Blinking dots loader inside nav (shown on link clicks) -->
+    <div class="nav-loader" id="navLoader" aria-hidden="true">
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO / LANDING SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="home" class="hero" aria-label="Hero section">
+
+      <!-- Scrolling Banner -->
+      <div class="banner-wrap" aria-label="Portfolio banner">
+        <div class="banner-track" id="bannerTrack">
+          <img src="C:\Users\Administrator\Desktop\manu hub/Cover Image FB.png" alt="Emmanuel Mainye – Cover Banner" class="banner-img" />
+          <img src="C:\Users\Administrator\Desktop\manu hub/Cover Image FB.png" alt="Emmanuel Mainye – Cover Banner duplicate" class="banner-img" aria-hidden="true" />
+        </div>
+        <div class="banner-overlay"></div>
+      </div>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <div class="hero-logo-wrap">
+          <img src="C:\Users\Administrator\Desktop\manu hub/Manu Hub Logo.png" alt="Manu Hub Logo" class="hero-logo" />
+        </div>
+        <div class="hero-text">
+          <p class="hero-eyebrow">Welcome to Manu Hub</p>
+          <h1 class="hero-name">
+            <span class="hero-em">Emmanuel</span>
+            <span class="hero-mn">Mainye</span>
+          </h1>
+          <div class="roles-wrap">
+            <span class="role-tag">IT Assistant</span>
+            <span class="role-divider">·</span>
+            <span class="role-tag">Web Designer</span>
+            <span class="role-divider">·</span>
+            <span class="role-tag">Graphic Designer</span>
+          </div>
+          <p class="hero-tagline">Building digital experiences that leave a lasting impression.</p>
+          <div class="hero-cta">
+            <a href="#services" class="btn btn-primary" aria-label="Explore services">
+              Explore Services
+              <span class="btn-dots" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </span>
+            </a>
+            <a href="#contact" class="btn btn-outline" aria-label="Get in touch">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Breaking news ticker -->
+      <div class="ticker-bar" aria-label="News ticker">
+        <span class="ticker-label">LATEST</span>
+        <div class="ticker-content">
+          <span class="ticker-text" id="tickerText">
+            New website packages available &nbsp;|&nbsp; 🎨 Graphic design services now include social media kits &nbsp;|&nbsp; 💻 Free IT consultation this month &nbsp;|&nbsp; 📋 eCitizen & KRA registration – quick turnaround &nbsp;|&nbsp; 🌐 Professional responsive websites delivered fast
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT / BIO SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="about" class="section about-section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-category">About</span>
+          <h2 class="section-title" id="about-heading">The Man Behind Manu Hub</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card news-card">
+            <div class="card-tag">Profile</div>
+            <div class="about-avatar-wrap">
+              <img src="C:\Users\Administrator\Desktop\manu hub/manu 2024.JPG" alt="Manu Hub – Emmanuel Mainye profile" class="about-avatar" />
+            </div>
+            <div class="about-info">
+              <h3 class="about-name">
+                <span class="name-em">Emmanuel</span> <span class="name-mn">Mainye</span>
+              </h3>
+              <div class="about-badges">
+<span class="badge" style="color: red;">IT Assistant</span>
+<span class="badge" style="color: red;">Web Designer</span>
+<span class="badge" style="color: red;">Graphic Designer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-bio-wrap">
+            <div class="bio-block">
+              <p class="bio-text">
+                Emmanuel Mainye is a dedicated IT Assistant with a passion for web and graphic design.
+                He specialises in creating responsive, user-friendly websites and visually compelling designs
+                that help businesses and individuals establish a strong digital presence.
+              </p>
+              <p class="bio-text">
+                Emmanuel also provides efficient IT support and online services including eCitizen and KRA platforms.
+                He is committed to delivering high-quality work that meets modern digital standards while ensuring
+                excellent user experience.
+              </p>
+            </div>
+
+            <div class="stats-row">
+              <div class="stat-item">
+                <span class="stat-num" data-target="50">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">Projects Delivered</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num" data-target="40">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num" data-target="5">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SERVICES SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="services" class="section services-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-category">What I Do</span>
+      <h2 class="section-title">Expertise & Services</h2>
+    </div>
+
+    <div class="services-grid">
+      
+      <div class="service-card">
+        <div class="service-img-container" style="height: 160px; overflow: hidden; border-radius: 8px; margin-bottom: 15px;">
+          <img src="C:\Users\Administrator\Desktop\manu hub\Web-Design.jpg" alt="Web Design" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <h3 class="service-title">Web Design</h3>
+        <p class="service-desc">Responsive, modern websites built with clean code — from landing pages to full business portals.</p>
+        <a href="#contact" class="btn-sm">Request Service →</a>
+        <br><span class="badge" style="color: red;">Services</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-img-container" style="height: 160px; overflow: hidden; border-radius: 8px; margin-bottom: 15px;">
+          <img src="C:\Users\Administrator\Desktop\manu hub\manu developer.png" alt="Graphic Design" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <h3 class="service-title">Graphic Design</h3>
+        <p class="service-desc">Logos, flyers, social media graphics and brand identity kits designed to make you stand out.</p>
+        <a href="#contact" class="btn-sm">Request Service →</a>
+        <br><span class="badge" style="color: red;">Services</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-img-container" style="height: 160px; overflow: hidden; border-radius: 8px; margin-bottom: 15px;">
+          <img src="C:\Users\Administrator\Desktop\manu hub\IT.jpg" alt="IT Support" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <h3 class="service-title">IT Support</h3>
+        <p class="service-desc">Hardware troubleshooting, software setup, networking, and general technical assistance.</p>
+        <a href="#contact" class="btn-sm">Request Service →</a>
+        <br><span class="badge" style="color: red;">Services</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-img-container" style="height: 160px; overflow: hidden; border-radius: 8px; margin-bottom: 15px;">
+          <img src="C:\Users\Administrator\Desktop\manu hub\ecitien.jpg" alt="eCitizen Services" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <h3 class="service-title">eCitizen Services</h3>
+        <p class="service-desc">Fast and accurate eCitizen registration, applications, and document processing on your behalf.</p>
+        <a href="#contact" class="btn-sm">Request Service →</a>
+        <br><span class="badge" style="color: red;">Services</span>
+      </div>
+	  </div>
+	  </section>
+
+      
+
+
+    <!-- ═══════════════════════════════════════════
+         NEWS / UPDATES SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="portfolio" class="section news-section" aria-labelledby="news-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-category">Latest</span>
+          <h2 class="section-title" id="news-heading">Updates & Highlights</h2>
+        </div>
+
+        <div class="news-layout">
+          <!-- Featured / Lead story -->
+          <article class="news-featured" aria-label="Featured update">
+            <div class="news-card featured-card">
+              <div class="news-image-wrap">
+                <img src="C:\Users\Administrator\Desktop\manu hub\Manu blue web.png" alt="Emmanuel Mainye – Featured project" class="news-img" loading="lazy" />
+                <span class="news-badge">Featured</span>
+              </div>
+              <div class="news-body">
+                <span class="news-cat">Web Design</span>
+                <h3 class="news-title">Responsive Business Websites That Convert</h3>
+                <p class="news-excerpt">
+                  From concept to launch, Emmanuel builds websites that are fast, mobile-first, and visually stunning — tailored to your brand identity and business goals.
+                </p>
+                <div class="news-meta">
+                  <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 2 min read</span>
+                  <a href="#contact" class="news-link btn-sm" aria-label="Enquire about web design">Enquire →</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Side news feed -->
+          <aside class="news-sidebar" aria-label="Other highlights">
+            <article class="news-card side-card">
+              <div class="side-img-wrap">
+                <img src="C:\Users\Administrator\Desktop\manu hub\manu developer.png" alt="Graphic Design services" class="side-img" loading="lazy" />
+              </div>
+              <div class="side-body">
+                <span class="news-cat">Graphic Design</span>
+                <h4 class="side-title">Logos, Flyers & Social Media Kits</h4>
+                <p class="side-excerpt">Brand identity packages designed to make you stand out.</p>
+                <a href="#contact" class="news-link" aria-label="Enquire about graphic design">Enquire →</a>
+              </div>
+            </article>
+
+            <article class="news-card side-card">
+              <div class="side-img-wrap">
+                <div class="side-icon-card it-icon">
+                  <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="side-body">
+                <span class="news-cat">IT Support</span>
+                <h4 class="side-title">Hardware, Software & Network Assistance</h4>
+                <p class="side-excerpt">Fast, reliable technical support for homes and businesses.</p>
+                <a href="#contact" class="news-link" aria-label="Enquire about IT support">Enquire →</a>
+              </div>
+            </article>
+
+            <article class="news-card side-card">
+  <div class="side-img-wrap">
+    <img src="C:\Users\Administrator\Desktop\manu hub\IT.jpg" alt="IT Support Services" class="side-img" loading="lazy" />
+  </div>
+  <div class="side-body">
+    <span class="news-cat">IT Support</span>
+    <h4 class="side-title">Hardware, Software & Network Assistance</h4>
+    <p class="side-excerpt">Fast, reliable technical support for homes and businesses.</p>
+    <a href="#contact" class="news-link" aria-label="Enquire about IT support">Enquire →</a>
+  </div>
+</article>
+              <div class="side-body">
+                <span class="news-cat">eCitizen / KRA</span>
+                <h4 class="side-title">Quick & Accurate Government Portal Services</h4>
+                <p class="side-excerpt">PIN registration, returns filing, and eCitizen applications handled with ease.</p>
+                <a href="#contact" class="news-link" aria-label="Enquire about eCitizen services">Enquire →</a>
+              </div>
+            </article>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         TESTIMONIALS SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="testimonials" class="section testimonials-section" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-category">Reviews</span>
+          <h2 class="section-title" id="testimonials-heading">What Clients Say</h2>
+        </div>
+
+        <div class="testimonials-grid" id="testimonialsGrid">
+          <!-- Skeleton placeholders -->
+          <div class="skeleton-card testi-sk" aria-hidden="true">
+            <div class="sk-line sm"></div>
+            <div class="sk-line lg" style="margin-top:12px"></div>
+            <div class="sk-line md"></div>
+            <div class="sk-avatar"></div>
+          </div>
+          <div class="skeleton-card testi-sk" aria-hidden="true">
+            <div class="sk-line sm"></div>
+            <div class="sk-line lg" style="margin-top:12px"></div>
+            <div class="sk-line md"></div>
+            <div class="sk-avatar"></div>
+          </div>
+          <div class="skeleton-card testi-sk" aria-hidden="true">
+            <div class="sk-line sm"></div>
+            <div class="sk-line lg" style="margin-top:12px"></div>
+            <div class="sk-line md"></div>
+            <div class="sk-avatar"></div>
+          </div>
+        </div>
+
+        <div class="real-testimonials hidden" id="realTestimonials" role="list" aria-label="Client testimonials"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CONTACT SECTION
+    ═══════════════════════════════════════════ -->
+    <section id="contact" class="section contact-section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-category">Get In Touch</span>
+          <h2 class="section-title" id="contact-heading">Let's Work Together</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p class="contact-intro">
+              Ready to take your digital presence to the next level? Reach out via WhatsApp or Facebook — Emmanuel responds fast.
+            </p>
+
+            <div class="contact-actions">
+              <a href="https://wa.me/254707408066?text=Hello%20Emmanuel%2C%20I%20found%20your%20portfolio%20and%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                 class="btn btn-whatsapp contact-btn"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Contact Emmanuel on WhatsApp">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                Chat on WhatsApp
+                <span class="btn-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+              </a>
+
+              <a href="https://www.facebook.com/Emmanuel.Mainye/"
+                 class="btn btn-facebook contact-btn"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Visit Emmanuel's Facebook page">
+                <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                Facebook Page
+                <span class="btn-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+              </a>
+            </div>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                <span>0707 408 066</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                <span>Available on WhatsApp</span>
+              </div>
+              <div class="contact-item">
+                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/Emmanuel.Mainye/" target="_blank" rel="noopener noreferrer" class="contact-link">facebook.com/Emmanuel.Mainye</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap">
+            <form class="contact-form" id="contactForm" novalidate aria-label="Send a message form">
+              <div class="form-group">
+                <label for="nameField">Your Name</label>
+                <input type="text" id="nameField" name="name" placeholder="e.g. John Kamau" required autocomplete="name" aria-required="true" />
+                <span class="form-error" id="nameError" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="emailField">Email Address</label>
+                <input type="email" id="emailField" name="email" placeholder="e.g. john@email.com" required autocomplete="email" aria-required="true" />
+                <span class="form-error" id="emailError" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="serviceField">Service Needed</label>
+                <select id="serviceField" name="service" required aria-required="true">
+                  <option value="" disabled selected>Select a service…</option>
+                  <option value="web-design">Web Design</option>
+                  <option value="graphic-design">Graphic Design</option>
+                  <option value="it-support">IT Support</option>
+                  <option value="ecitizen">eCitizen Services</option>
+                  <option value="kra">KRA Services</option>
+                </select>
+                <span class="form-error" id="serviceError" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="msgField">Your Message</label>
+                <textarea id="msgField" name="message" rows="4" placeholder="Tell Emmanuel about your project…" required aria-required="true"></textarea>
+                <span class="form-error" id="msgError" role="alert"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" aria-label="Send message">
+                Send Message
+                <span class="btn-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+              </button>
+              <div class="form-success hidden" id="formSuccess" role="status" aria-live="polite">
+                <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                Message noted! Emmanuel will redirect you to WhatsApp shortly.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <img src="C:\Users\Administrator\Desktop\manu hub/Manu Hub Logo.png" alt="Manu Hub Logo" class="footer-logo" />
+        <p class="footer-tagline">
+          <span class="name-em">Emmanuel</span><span class="name-mn">Mainye</span><br />
+          IT Assistant · Web Designer · Graphic Designer
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="https://wa.me/254707408066" target="_blank" rel="noopener noreferrer" class="social-btn wa" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/Emmanuel.Mainye/" target="_blank" rel="noopener noreferrer" class="social-btn fb" aria-label="Facebook">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Emmanuel Mainye – Manu Hub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
